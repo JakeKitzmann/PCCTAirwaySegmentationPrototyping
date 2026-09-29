@@ -1,0 +1,63 @@
+tree,deformation_id,family,level,magnitude,peak_disp,TLD_default,pass_default,TLD_best,pass_best,TLD_oracle,TLD_unregistered
+planar,01,translation,5 vox,5.0,5.000000000000004,94.36,False,97.77,True,98.03,12.6
+planar,02,translation,15 vox,15.0,15.000000000000009,94.36,False,97.77,True,98.03,0.0
+planar,03,translation,30 vox,30.0,30.0,100.0,True,100.0,True,100.0,0.0
+planar,04,translation,60 vox,60.0,59.99999999999999,100.0,True,100.0,True,100.0,0.0
+planar,05,rotation,5°,5.0,7.572207208221627,90.94,False,98.82,True,98.82,29.0
+planar,06,rotation,10°,10.0,15.130000289646269,94.49,False,98.16,True,98.43,15.09
+planar,07,rotation,20°,20.0,30.144852141344387,95.8,False,98.56,True,98.95,6.43
+planar,08,rotation,30°,30.0,44.930283466287456,30.58,False,65.09,False,72.83,4.07
+planar,09,rotation,45°,45.0,66.4328047698522,,False,92.39,False,98.56,2.23
+planar,10,rotation+translation,5° + 10 vox,5.0,14.840956781783666,97.9,True,98.43,True,98.43,0.92
+planar,11,rotation+translation,10° + 20 vox,10.0,29.789509885101342,95.8,True,98.82,True,98.82,0.0
+planar,12,rotation+translation,20° + 30 vox,20.0,50.14414614452236,91.86,False,98.29,True,98.29,0.0
+planar,13,rotation+translation,30° + 40 vox,30.0,70.5747876693689,92.26,False,70.73,False,99.21,0.0
+planar,14,affine (shear),shear 0.02,0.02,24.26352901823032,96.46,True,99.08,True,99.08,1.18
+planar,15,affine (shear),shear 0.05,0.05,24.597137051824756,90.55,False,92.65,False,98.29,2.1
+planar,16,affine (shear),shear 0.1,0.1,25.705312028034147,89.76,False,98.82,True,98.82,2.23
+planar,17,affine (shear),shear 0.2,0.2,29.65490916283821,93.83,False,98.43,True,98.43,7.09
+planar,18,nonrigid,1 vox,1.0,0.9999999999999998,98.82,True,99.48,True,99.48,99.08
+planar,19,nonrigid,2 vox,2.0,1.999999999999984,92.91,False,97.38,False,97.38,90.16
+planar,20,nonrigid,4 vox,4.0,3.999999999999969,95.93,False,98.29,True,98.29,77.3
+planar,21,nonrigid,6 vox,6.0,5.999999999999954,96.46,False,98.03,False,98.03,56.69
+planar,22,nonrigid,8 vox,8.0,7.999999999999953,88.71,False,94.88,False,95.01,47.64
+planar,23,nonrigid,12 vox,12.0,11.999999999999948,67.85,False,96.19,False,96.33,32.68
+planar,24,nonrigid,16 vox,16.0,15.999999999999917,56.56,False,96.72,True,96.72,19.29
+planar,25,breath hold,2%,2.0,2.6176340678705508,97.38,True,99.61,True,99.61,81.23
+planar,26,breath hold,5%,5.0,6.544085169676377,97.9,True,99.48,True,99.48,61.02
+planar,27,breath hold,10%,10.0,13.088170339352754,92.65,False,99.34,True,99.34,41.73
+planar,28,breath hold,15%,15.0,19.63225550902913,89.11,False,99.08,True,99.08,36.35
+planar,29,breath hold,20%,20.0,26.176340678705508,91.47,False,99.34,True,99.34,31.23
+planar,30,breath hold,25%,25.0,32.720425848381886,,False,98.69,True,98.69,26.38
+planar,31,breath hold,30%,30.0,39.26451101805826,,False,98.16,True,98.16,26.25
+non-planar,01,translation,5 vox,5.0,5.000000000000004,94.73,False,98.28,True,98.28,20.96
+non-planar,02,translation,15 vox,15.0,15.000000000000009,94.73,False,98.28,True,98.28,0.74
+non-planar,03,translation,30 vox,30.0,30.0,100.0,True,100.0,True,100.0,0.74
+non-planar,04,translation,60 vox,60.0,60.0,100.0,True,100.0,True,100.0,0.0
+non-planar,05,rotation,5°,5.0,7.5866302956381055,93.14,False,97.3,True,97.43,32.11
+non-planar,06,rotation,10°,10.0,15.158819009312644,93.38,False,98.16,True,98.41,17.89
+non-planar,07,rotation,20°,20.0,30.202270252819204,93.87,False,98.41,True,98.41,7.35
+non-planar,08,rotation,30°,30.0,45.01586398307241,93.87,False,97.92,True,97.92,4.29
+non-planar,09,rotation,45°,45.0,66.55934200320719,92.65,False,96.69,True,96.69,1.35
+non-planar,10,rotation+translation,5° + 10 vox,5.0,14.898752028749549,94.0,False,98.41,True,98.41,6.25
+non-planar,11,rotation+translation,10° + 20 vox,10.0,29.91133853120408,94.49,False,98.41,True,98.41,1.96
+non-planar,12,rotation+translation,20° + 30 vox,20.0,50.38027942961403,92.4,False,97.79,True,97.79,1.59
+non-planar,13,rotation+translation,30° + 40 vox,30.0,70.97056334824784,94.12,False,97.18,True,97.18,1.84
+non-planar,14,affine (shear),shear 0.02,0.02,23.89525568228101,95.59,True,98.41,True,98.41,2.45
+non-planar,15,affine (shear),shear 0.05,0.05,24.28279909234104,92.4,False,97.79,True,97.79,2.7
+non-planar,16,affine (shear),shear 0.1,0.1,25.385169118102954,92.52,False,97.18,True,97.18,3.06
+non-planar,17,affine (shear),shear 0.2,0.2,29.026527004553422,87.99,False,98.04,True,98.04,11.64
+non-planar,18,nonrigid,1 vox,1.0,1.0000000000000075,95.71,False,99.14,True,99.14,98.04
+non-planar,19,nonrigid,2 vox,2.0,1.9999999999999944,91.42,False,98.04,True,98.16,90.44
+non-planar,20,nonrigid,4 vox,4.0,4.000000000000005,93.38,False,98.53,True,98.65,68.14
+non-planar,21,nonrigid,6 vox,6.0,6.0,90.93,False,97.3,True,97.43,49.26
+non-planar,22,nonrigid,8 vox,8.0,7.999999999999995,93.63,False,97.18,True,97.3,38.36
+non-planar,23,nonrigid,12 vox,12.0,12.0,69.0,False,96.81,True,96.81,26.72
+non-planar,24,nonrigid,16 vox,16.0,16.00000000000001,50.12,False,97.3,True,97.3,17.4
+non-planar,25,breath hold,2%,2.0,2.489654195059037,95.1,True,98.28,True,98.28,80.64
+non-planar,26,breath hold,5%,5.0,6.224135487647593,93.38,False,98.04,True,98.04,39.58
+non-planar,27,breath hold,10%,10.0,12.448270975295186,94.73,False,98.41,True,98.41,21.32
+non-planar,28,breath hold,15%,15.0,18.672406462942774,91.67,False,98.53,True,98.65,18.01
+non-planar,29,breath hold,20%,20.0,24.89654195059037,89.58,False,98.53,True,98.53,14.58
+non-planar,30,breath hold,25%,25.0,31.12067743823797,59.68,False,98.53,True,98.53,11.64
+non-planar,31,breath hold,30%,30.0,37.34481292588556,,False,98.04,True,98.28,11.27

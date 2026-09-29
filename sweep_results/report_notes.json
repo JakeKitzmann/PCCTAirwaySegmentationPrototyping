@@ -1,0 +1,39 @@
+{
+ "cli_built": "2026-09-29 16:06 (PCCTAirwaySegmentation 7ef1a7c + CLI flags)",
+ "generated": "2026-09-29 16:42",
+ "setup_html": "\n<p>Two synthetic airways with 6 generations (trachea = generation 0) and 45\u00b0 bifurcations: a <b>planar</b> tree\n(55 skeleton branches, every bifurcation in one plane) and a <b>non-planar</b> tree whose bifurcation plane turns 45\u00b0\nabout each child branch (63 branches). Each tree was deformed 31 ways, from mild to severe, in six families:\ntranslation, rotation about an oblique axis, rotation plus translation, rotation plus translation plus shear, a random\nsmooth B-spline warp, and a <b>breath hold</b> that stretches the nonterminal tree craniocaudally (most at the bases)\nand expands it laterally while carrying each terminal branch rigidly, as between two CT breath holds.</p>\n<p>Every moving mask was scored by the <code>AirwayEvaluation</code> CLI with <code>--deformableEvaluation</code>\nunder all 135 combinations of the four registration hyperparameters below, and once without registration as the\nstarting point. <b>TLD</b> is tree length detected and <b>BD</b> branch detection, both from the CLI's\n<code>results.csv</code>. A deformation <b>passes</b> when TLD \u2265 95% and every generation has 100% BD. CLI errors\n(fewer than 4 landmark pairs for the thin-plate spline) count as TLD 0.</p>",
+ "findings": [
+  [
+   "The defaults leave most of the recoverable tree unrecovered",
+   "On the non-planar tree the CLI defaults average <b>87.4%</b> TLD and pass <b>4 of 31</b> deformations; they rank 97th of 135 settings. The recommended setting averages <b>98.1%</b>, passes <b>31 of 31</b>, never errors, and its worst deformation still reaches 96.7% TLD. On the planar tree it lifts mean TLD from 81.1% to 96.1% and passes from 8 to 23."
+  ],
+  [
+   "Maximum pairing distance is the parameter that matters",
+   "Averaged over everything else, non-planar mean TLD rises from 75.3% at 2.5 to 88.6% at 5, 93.4% at 10, 95.0% at 20 and 95.2% at 40, and the CLI error rate falls from 18% at 2.5 to 2% at 5 and 0 from 10 up. The rigid (ICP) alignment cannot absorb nonrigid motion, so a tight cutoff drops correct landmark pairs; the spline is then fitted to a few points, or to fewer than 4 and the run errors."
+  ],
+  [
+   "Keep nearby branch points as separate landmarks",
+   "A minimum landmark distance of 2 gives 92.7% mean TLD on the non-planar tree against 87.9% at 5 or 10, which give identical results on these phantoms. More landmarks give the spline more control points along the tree."
+  ],
+  [
+   "Sensitivity and projection neighbors do not change the result here",
+   "Sensitivity 1, 2 and 3 give identical results on both trees, and 1, 5 or 15 projection neighbors move mean TLD by at most 0.3 points. The phantoms have no spurious short leaves for sensitivity to prune, so this sweep says nothing about its value on real segmentations."
+  ],
+  [
+   "Every tested deformation of the non-planar tree is recovered",
+   "With the recommended setting the non-planar tree passes up to a 60-voxel translation, a 45\u00b0 rotation, 30\u00b0 plus 40 voxels, shear 0.2, a 16-voxel B-spline warp and a 30% breath hold (37 voxels at the bases), with 100% branch detection in every generation. With the defaults, no rotation, combined motion or B-spline case passes, and only the 2% breath hold does. The breaking point lies beyond the tested range."
+  ],
+  [
+   "One setting captures nearly all of what is recoverable",
+   "The best setting chosen separately for each deformation beats the recommended single setting by at most 0.1 points of mean TLD per family on the non-planar tree, so there is little to gain from tuning per deformation type."
+  ],
+  [
+   "The planar tree stays harder",
+   "With every landmark in one plane the spline's affine part is undetermined. Planar rotations recover to 90.6% mean TLD (3 of 5 pass, worst 65.1% at 30\u00b0), and on the 30\u00b0 + 40-voxel case the recommended setting does worse than the defaults (70.7% vs 92.3% TLD). A pairing distance of 20 is marginally better on this tree (96.5% mean, worst 71.3%)."
+  ]
+ ],
+ "generations_html": "\n<p>With the defaults, the losses sit in the distal generations: on the non-planar tree generations 4 and 5 average\nabout 93% branch detection across the deformations, while the trachea and first generations stay near 97\u2013100%. With the\nrecommended setting every generation of the non-planar tree reaches 100% on every deformation. The planar tree keeps a\nsmall residual loss spread over generations 1\u20135, from its large rotations.</p>",
+ "effects_html": "\n<p>Pairing distance dominates: raising it from the default 5 to 20 or 40 adds 6\u20137 points of mean TLD on the non-planar tree and 10\u201311 on the planar tree and\nremoves every CLI error. A minimum landmark distance of 2 adds about 5 points. Sensitivity and projection neighbors are\nflat. The pass-rate panels move less than mean TLD because each point averages settings whose other parameters are\npoor.</p>",
+ "threshold_html": "\n<p><code>--branchDetectionThresholdPercent</code> changes only how a branch is counted, not the registration. Scoring\nthe same default-parameter registrations with a 25%, 50% or 75% coverage threshold moves mean BD by 8\u201316 points for the\nnonrigid and breath-hold families. It was held at 50% for every result above and should be reported alongside any BD\nfigure, not tuned.</p>",
+ "recommendation_html": "\n<p><b>Why 40 rather than 20.</b> On the non-planar tree, 40 passes 31 of 31 deformations against 30 for 20, with a\nhigher worst case (96.7% vs 94.6% TLD). On the planar tree, 20 is slightly better (96.5% vs 96.1% mean TLD). Both are\nfar ahead of the default of 5, and above 20 the gain is small.</p>\n<p><b>Check before adopting 40 on real data.</b> Both phantoms here have the same branches as their deformed copies.\nIn the one-to-one pairing, any two leftover landmarks closer than the cutoff are cheaper to pair than to leave\nunpaired, so with a 40 mm cutoff a prediction with missing or extra branches can have a spurious branch point paired\nwith a real one up to 40 mm away. Sweep a prediction with pruned or added branches before adopting 40. Until then,\n<code>--maximumPairingDistance 20</code> keeps nearly all of the gain with half the reach.</p>\n<p><b>Leave sensitivity at 2 and projection neighbors at 5.</b> They had no measurable effect on these phantoms, and\nsensitivity controls pruning of spurious leaves in real segmentations, which this sweep does not exercise.</p>"
+}

@@ -1,0 +1,13 @@
+tree,family,passes (default),largest passing (default),passes (best),largest passing (best),mean TLD default,mean TLD best,mean TLD per-deformation best
+planar,translation,2/4,60 vox (60 vox),4/4,60 vox (60 vox),97.18,98.88499999999999,99.015
+planar,rotation,0/5,none,3/5,20° (30 vox),77.9525,90.604,93.518
+planar,rotation+translation,2/4,10° + 20 vox (30 vox),3/4,20° + 30 vox (50 vox),94.455,91.56750000000001,98.6875
+planar,affine (shear),1/4,shear 0.02 (24 vox),3/4,shear 0.2 (30 vox),92.64999999999999,97.245,98.655
+planar,nonrigid,1/7,1 vox (1 vox),3/7,16 vox (16 vox),85.32000000000001,97.28142857142858,97.32000000000002
+planar,breath hold,2/7,5% (7 vox),7/7,30% (39 vox),93.702,99.1,99.1
+non-planar,translation,2/4,60 vox (60 vox),4/4,60 vox (60 vox),97.36500000000001,99.14,99.14
+non-planar,rotation,0/5,none,5/5,45° (67 vox),93.38199999999999,97.696,97.772
+non-planar,rotation+translation,0/4,none,4/4,30° + 40 vox (71 vox),93.7525,97.9475,97.9475
+non-planar,affine (shear),1/4,shear 0.02 (24 vox),4/4,shear 0.2 (29 vox),92.125,97.855,97.855
+non-planar,nonrigid,0/7,none,7/7,16 vox (16 vox),83.45571428571428,97.75714285714285,97.82714285714285
+non-planar,breath hold,1/7,2% (2 vox),7/7,30% (37 vox),87.35666666666667,98.33714285714284,98.38857142857141

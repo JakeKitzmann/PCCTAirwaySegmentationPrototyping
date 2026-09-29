@@ -1,0 +1,65 @@
+tree,deformation_id,family,level,magnitude,mean_disp,peak_disp,moving_voxels,fixed_voxels,fixed_path,moving_path
+planar,00,identity,none,0.0,0.0,0.0,22122,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/00_identity_none.nii.gz
+planar,01,translation,5 vox,5.0,5.0,5.000000000000004,21543,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/01_translation_5_vox.nii.gz
+planar,02,translation,15 vox,15.0,15.0,15.000000000000007,21543,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/02_translation_15_vox.nii.gz
+planar,03,translation,30 vox,30.0,29.999999999999996,29.999999999999996,22122,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/03_translation_30_vox.nii.gz
+planar,04,translation,60 vox,60.0,59.99999999999999,59.99999999999999,22084,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/04_translation_60_vox.nii.gz
+planar,05,rotation,5°,5.0,3.0889627670349546,7.572207208221627,21806,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/05_rotation_5.nii.gz
+planar,06,rotation,10°,10.0,6.17204551787769,15.130000289646267,21770,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/06_rotation_10.nii.gz
+planar,07,rotation,20°,20.0,12.297118042581353,30.144852141344387,21771,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/07_rotation_20.nii.gz
+planar,08,rotation,30°,30.0,18.328602073778086,44.930283466287456,21769,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/08_rotation_30.nii.gz
+planar,09,rotation,45°,45.0,27.100217255144294,66.4328047698522,21788,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/09_rotation_45.nii.gz
+planar,10,rotation+translation,5° + 10 vox,5.0,10.471402008771893,14.840956781783666,21770,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/10_rotation+translation_5__+_10_vox.nii.gz
+planar,11,rotation+translation,10° + 20 vox,10.0,20.93003176659913,29.789509885101342,21810,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/11_rotation+translation_10__+_20_vox.nii.gz
+planar,12,rotation+translation,20° + 30 vox,20.0,32.33084995332646,50.14414614452236,21755,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/12_rotation+translation_20__+_30_vox.nii.gz
+planar,13,rotation+translation,30° + 40 vox,30.0,43.754424112995345,70.5747876693689,21797,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/13_rotation+translation_30__+_40_vox.nii.gz
+planar,14,affine (shear),shear 0.02,0.02,12.013076926837936,24.26352901823032,21768,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/14_affine__shear_shear_0.02.nii.gz
+planar,15,affine (shear),shear 0.05,0.05,11.833790948726662,24.597137051824753,21786,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/15_affine__shear_shear_0.05.nii.gz
+planar,16,affine (shear),shear 0.1,0.1,11.629122576019874,25.705312028034147,21809,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/16_affine__shear_shear_0.1.nii.gz
+planar,17,affine (shear),shear 0.2,0.2,11.75047341984716,29.65490916283821,21744,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/17_affine__shear_shear_0.2.nii.gz
+planar,18,nonrigid,1 vox,1.0,0.4106754014043216,0.9999999999999998,21912,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/18_nonrigid_1_vox.nii.gz
+planar,19,nonrigid,2 vox,2.0,0.8213508028086437,1.9999999999999842,21371,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/19_nonrigid_2_vox.nii.gz
+planar,20,nonrigid,4 vox,4.0,1.6427016056172872,3.999999999999969,21166,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/20_nonrigid_4_vox.nii.gz
+planar,21,nonrigid,6 vox,6.0,2.4640524084259314,5.999999999999954,21052,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/21_nonrigid_6_vox.nii.gz
+planar,22,nonrigid,8 vox,8.0,3.285403211234575,7.999999999999953,20452,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/22_nonrigid_8_vox.nii.gz
+planar,23,nonrigid,12 vox,12.0,4.928104816851863,11.999999999999947,19915,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/23_nonrigid_12_vox.nii.gz
+planar,24,nonrigid,16 vox,16.0,6.57080642246915,15.999999999999915,19765,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/24_nonrigid_16_vox.nii.gz
+planar,25,breath hold,2%,2.0,1.5389343007005072,2.6176340678705508,22415,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/25_breath_hold_2.nii.gz
+planar,26,breath hold,5%,5.0,3.847335751751268,6.544085169676377,22677,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/26_breath_hold_5.nii.gz
+planar,27,breath hold,10%,10.0,7.694671503502536,13.088170339352754,23163,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/27_breath_hold_10.nii.gz
+planar,28,breath hold,15%,15.0,11.5420072552538,19.63225550902913,24097,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/28_breath_hold_15.nii.gz
+planar,29,breath hold,20%,20.0,15.389343007005072,26.176340678705508,24812,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/29_breath_hold_20.nii.gz
+planar,30,breath hold,25%,25.0,19.236678758756337,32.720425848381886,25348,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/30_breath_hold_25.nii.gz
+planar,31,breath hold,30%,30.0,23.0840145105076,39.26451101805826,26001,22122,sweep_results/masks/planar/fixed.nii.gz,sweep_results/masks/planar/31_breath_hold_30.nii.gz
+non-planar,00,identity,none,0.0,0.0,0.0,22421,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/00_identity_none.nii.gz
+non-planar,01,translation,5 vox,5.0,5.0,5.000000000000004,21932,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/01_translation_5_vox.nii.gz
+non-planar,02,translation,15 vox,15.0,15.0,15.000000000000007,21930,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/02_translation_15_vox.nii.gz
+non-planar,03,translation,30 vox,30.0,29.999999999999996,29.999999999999996,22421,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/03_translation_30_vox.nii.gz
+non-planar,04,translation,60 vox,60.0,60.0,60.0,22383,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/04_translation_60_vox.nii.gz
+non-planar,05,rotation,5°,5.0,3.118912043662665,7.5866302956381055,22016,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/05_rotation_5.nii.gz
+non-planar,06,rotation,10°,10.0,6.231887060982844,15.158819009312644,22006,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/06_rotation_10.nii.gz
+non-planar,07,rotation,20°,20.0,12.41634569851532,30.202270252819204,22044,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/07_rotation_20.nii.gz
+non-planar,08,rotation,30°,30.0,18.506308448087584,45.01586398307241,22055,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/08_rotation_30.nii.gz
+non-planar,09,rotation,45°,45.0,27.362969500625205,66.55934200320719,22045,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/09_rotation_45.nii.gz
+non-planar,10,rotation+translation,5° + 10 vox,5.0,10.442426987145994,14.898752028749547,22005,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/10_rotation+translation_5__+_10_vox.nii.gz
+non-planar,11,rotation+translation,10° + 20 vox,10.0,20.870617474397413,29.911338531204077,22025,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/11_rotation+translation_10__+_20_vox.nii.gz
+non-planar,12,rotation+translation,20° + 30 vox,20.0,32.271812443638574,50.38027942961403,21991,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/12_rotation+translation_20__+_30_vox.nii.gz
+non-planar,13,rotation+translation,30° + 40 vox,30.0,43.71332042155317,70.97056334824784,22023,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/13_rotation+translation_30__+_40_vox.nii.gz
+non-planar,14,affine (shear),shear 0.02,0.02,12.092284783372333,23.89525568228101,22024,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/14_affine__shear_shear_0.02.nii.gz
+non-planar,15,affine (shear),shear 0.05,0.05,11.875083022839565,24.282799092341037,21993,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/15_affine__shear_shear_0.05.nii.gz
+non-planar,16,affine (shear),shear 0.1,0.1,11.59554668987992,25.385169118102954,22017,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/16_affine__shear_shear_0.1.nii.gz
+non-planar,17,affine (shear),shear 0.2,0.2,11.470615871458401,29.026527004553422,21975,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/17_affine__shear_shear_0.2.nii.gz
+non-planar,18,nonrigid,1 vox,1.0,0.3791960108222437,1.0000000000000075,22086,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/18_nonrigid_1_vox.nii.gz
+non-planar,19,nonrigid,2 vox,2.0,0.7583920216444875,1.9999999999999944,21544,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/19_nonrigid_2_vox.nii.gz
+non-planar,20,nonrigid,4 vox,4.0,1.516784043288975,4.000000000000005,21422,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/20_nonrigid_4_vox.nii.gz
+non-planar,21,nonrigid,6 vox,6.0,2.2751760649334622,6.0,21209,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/21_nonrigid_6_vox.nii.gz
+non-planar,22,nonrigid,8 vox,8.0,3.0335680865779495,7.999999999999995,21011,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/22_nonrigid_8_vox.nii.gz
+non-planar,23,nonrigid,12 vox,12.0,4.5503521298669245,12.0,20675,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/23_nonrigid_12_vox.nii.gz
+non-planar,24,nonrigid,16 vox,16.0,6.0671361731559,16.00000000000001,20417,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/24_nonrigid_16_vox.nii.gz
+non-planar,25,breath hold,2%,2.0,1.5562698470847272,2.489654195059037,22777,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/25_breath_hold_2.nii.gz
+non-planar,26,breath hold,5%,5.0,3.890674617711819,6.224135487647593,23106,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/26_breath_hold_5.nii.gz
+non-planar,27,breath hold,10%,10.0,7.781349235423638,12.448270975295186,23684,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/27_breath_hold_10.nii.gz
+non-planar,28,breath hold,15%,15.0,11.672023853135455,18.672406462942778,24295,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/28_breath_hold_15.nii.gz
+non-planar,29,breath hold,20%,20.0,15.562698470847277,24.896541950590372,24842,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/29_breath_hold_20.nii.gz
+non-planar,30,breath hold,25%,25.0,19.453373088559097,31.120677438237966,25436,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/30_breath_hold_25.nii.gz
+non-planar,31,breath hold,30%,30.0,23.34404770627091,37.344812925885556,26005,22421,sweep_results/masks/non-planar/fixed.nii.gz,sweep_results/masks/non-planar/31_breath_hold_30.nii.gz

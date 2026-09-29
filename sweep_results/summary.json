@@ -1,0 +1,14 @@
+{
+  "best_params": {
+    "maximum_pairing_distance": 40.0,
+    "minimum_landmark_distance": 2.0,
+    "sensitivity_multiplier": 2.0,
+    "projection_neighbors": 5
+  },
+  "best_combo": "pair 40 \u00b7 lmk 2 \u00b7 sens 2 \u00b7 nbr 5",
+  "default_combo": "pair 5 \u00b7 lmk 5 \u00b7 sens 2 \u00b7 nbr 5",
+  "default_rank": 97,
+  "n_combos": 135,
+  "n_runs": 8960,
+  "n_errors": 431
+}

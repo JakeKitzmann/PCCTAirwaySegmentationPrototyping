@@ -1,0 +1,157 @@
+CLI: /IPLlinux/raid0/homes/jkitzmann/Research/PCCTAirwaySegmentation/build/bin/AirwayEvaluation built Tue Sep 29 16:06:47 2026
+    planar             identity           none: peak   0.0 vox
+    planar          translation          5 vox: peak   5.0 vox
+    planar          translation         15 vox: peak  15.0 vox
+    planar          translation         30 vox: peak  30.0 vox
+    planar          translation         60 vox: peak  60.0 vox
+    planar             rotation             5°: peak   7.6 vox
+    planar             rotation            10°: peak  15.1 vox
+    planar             rotation            20°: peak  30.1 vox
+    planar             rotation            30°: peak  44.9 vox
+    planar             rotation            45°: peak  66.4 vox
+    planar rotation+translation    5° + 10 vox: peak  14.8 vox
+    planar rotation+translation   10° + 20 vox: peak  29.8 vox
+    planar rotation+translation   20° + 30 vox: peak  50.1 vox
+    planar rotation+translation   30° + 40 vox: peak  70.6 vox
+    planar       affine (shear)     shear 0.02: peak  24.3 vox
+    planar       affine (shear)     shear 0.05: peak  24.6 vox
+    planar       affine (shear)      shear 0.1: peak  25.7 vox
+    planar       affine (shear)      shear 0.2: peak  29.7 vox
+    planar             nonrigid          1 vox: peak   1.0 vox
+    planar             nonrigid          2 vox: peak   2.0 vox
+    planar             nonrigid          4 vox: peak   4.0 vox
+    planar             nonrigid          6 vox: peak   6.0 vox
+    planar             nonrigid          8 vox: peak   8.0 vox
+    planar             nonrigid         12 vox: peak  12.0 vox
+    planar             nonrigid         16 vox: peak  16.0 vox
+    planar          breath hold             2%: peak   2.6 vox
+    planar          breath hold             5%: peak   6.5 vox
+    planar          breath hold            10%: peak  13.1 vox
+    planar          breath hold            15%: peak  19.6 vox
+    planar          breath hold            20%: peak  26.2 vox
+    planar          breath hold            25%: peak  32.7 vox
+    planar          breath hold            30%: peak  39.3 vox
+non-planar             identity           none: peak   0.0 vox
+non-planar          translation          5 vox: peak   5.0 vox
+non-planar          translation         15 vox: peak  15.0 vox
+non-planar          translation         30 vox: peak  30.0 vox
+non-planar          translation         60 vox: peak  60.0 vox
+non-planar             rotation             5°: peak   7.6 vox
+non-planar             rotation            10°: peak  15.2 vox
+non-planar             rotation            20°: peak  30.2 vox
+non-planar             rotation            30°: peak  45.0 vox
+non-planar             rotation            45°: peak  66.6 vox
+non-planar rotation+translation    5° + 10 vox: peak  14.9 vox
+non-planar rotation+translation   10° + 20 vox: peak  29.9 vox
+non-planar rotation+translation   20° + 30 vox: peak  50.4 vox
+non-planar rotation+translation   30° + 40 vox: peak  71.0 vox
+non-planar       affine (shear)     shear 0.02: peak  23.9 vox
+non-planar       affine (shear)     shear 0.05: peak  24.3 vox
+non-planar       affine (shear)      shear 0.1: peak  25.4 vox
+non-planar       affine (shear)      shear 0.2: peak  29.0 vox
+non-planar             nonrigid          1 vox: peak   1.0 vox
+non-planar             nonrigid          2 vox: peak   2.0 vox
+non-planar             nonrigid          4 vox: peak   4.0 vox
+non-planar             nonrigid          6 vox: peak   6.0 vox
+non-planar             nonrigid          8 vox: peak   8.0 vox
+non-planar             nonrigid         12 vox: peak  12.0 vox
+non-planar             nonrigid         16 vox: peak  16.0 vox
+non-planar          breath hold             2%: peak   2.5 vox
+non-planar          breath hold             5%: peak   6.2 vox
+non-planar          breath hold            10%: peak  12.4 vox
+non-planar          breath hold            15%: peak  18.7 vox
+non-planar          breath hold            20%: peak  24.9 vox
+non-planar          breath hold            25%: peak  31.1 vox
+non-planar          breath hold            30%: peak  37.3 vox
+8960 jobs, 0 already done, 8960 to run (20 workers x 3 threads)
+100/8960 done, 0.1 min, ~10 min left
+200/8960 done, 0.2 min, ~10 min left
+300/8960 done, 0.4 min, ~11 min left
+400/8960 done, 0.5 min, ~12 min left
+500/8960 done, 0.6 min, ~11 min left
+600/8960 done, 0.7 min, ~10 min left
+700/8960 done, 0.9 min, ~10 min left
+800/8960 done, 1.0 min, ~10 min left
+900/8960 done, 1.2 min, ~11 min left
+1000/8960 done, 1.4 min, ~11 min left
+1100/8960 done, 1.7 min, ~12 min left
+1200/8960 done, 2.0 min, ~13 min left
+1300/8960 done, 2.3 min, ~13 min left
+1400/8960 done, 2.6 min, ~14 min left
+1500/8960 done, 2.8 min, ~14 min left
+1600/8960 done, 3.0 min, ~14 min left
+1700/8960 done, 3.1 min, ~13 min left
+1800/8960 done, 3.3 min, ~13 min left
+1900/8960 done, 3.6 min, ~13 min left
+2000/8960 done, 3.8 min, ~13 min left
+2100/8960 done, 4.0 min, ~13 min left
+2200/8960 done, 4.3 min, ~13 min left
+2300/8960 done, 4.5 min, ~13 min left
+2400/8960 done, 4.7 min, ~13 min left
+2500/8960 done, 4.9 min, ~13 min left
+2600/8960 done, 5.0 min, ~12 min left
+2700/8960 done, 5.1 min, ~12 min left
+2800/8960 done, 5.3 min, ~12 min left
+2900/8960 done, 5.4 min, ~11 min left
+3000/8960 done, 5.5 min, ~11 min left
+3100/8960 done, 5.7 min, ~11 min left
+3200/8960 done, 5.8 min, ~10 min left
+3300/8960 done, 6.0 min, ~10 min left
+3400/8960 done, 6.1 min, ~10 min left
+3500/8960 done, 6.3 min, ~10 min left
+3600/8960 done, 6.4 min, ~10 min left
+3700/8960 done, 6.5 min, ~9 min left
+3800/8960 done, 6.6 min, ~9 min left
+3900/8960 done, 6.7 min, ~9 min left
+4000/8960 done, 6.8 min, ~8 min left
+4100/8960 done, 6.8 min, ~8 min left
+4200/8960 done, 6.9 min, ~8 min left
+4300/8960 done, 7.0 min, ~8 min left
+4400/8960 done, 7.1 min, ~7 min left
+4500/8960 done, 7.2 min, ~7 min left
+4600/8960 done, 7.6 min, ~7 min left
+4700/8960 done, 7.9 min, ~7 min left
+4800/8960 done, 8.3 min, ~7 min left
+4900/8960 done, 8.7 min, ~7 min left
+5000/8960 done, 9.0 min, ~7 min left
+5100/8960 done, 9.3 min, ~7 min left
+5200/8960 done, 9.6 min, ~7 min left
+5300/8960 done, 10.1 min, ~7 min left
+5400/8960 done, 10.5 min, ~7 min left
+5500/8960 done, 10.8 min, ~7 min left
+5600/8960 done, 11.2 min, ~7 min left
+5700/8960 done, 11.6 min, ~7 min left
+5800/8960 done, 12.0 min, ~7 min left
+5900/8960 done, 12.4 min, ~6 min left
+6000/8960 done, 12.8 min, ~6 min left
+6100/8960 done, 13.1 min, ~6 min left
+6200/8960 done, 13.5 min, ~6 min left
+6300/8960 done, 13.9 min, ~6 min left
+6400/8960 done, 14.2 min, ~6 min left
+6500/8960 done, 14.6 min, ~6 min left
+6600/8960 done, 15.0 min, ~5 min left
+6700/8960 done, 15.4 min, ~5 min left
+6800/8960 done, 15.7 min, ~5 min left
+6900/8960 done, 16.1 min, ~5 min left
+7000/8960 done, 16.5 min, ~5 min left
+7100/8960 done, 16.8 min, ~4 min left
+7200/8960 done, 17.2 min, ~4 min left
+7300/8960 done, 17.5 min, ~4 min left
+7400/8960 done, 17.9 min, ~4 min left
+7500/8960 done, 20.2 min, ~4 min left
+7600/8960 done, 21.9 min, ~4 min left
+7700/8960 done, 22.3 min, ~4 min left
+7800/8960 done, 22.6 min, ~3 min left
+7900/8960 done, 22.9 min, ~3 min left
+8000/8960 done, 23.3 min, ~3 min left
+8100/8960 done, 23.7 min, ~3 min left
+8200/8960 done, 24.1 min, ~2 min left
+8300/8960 done, 24.4 min, ~2 min left
+8400/8960 done, 24.8 min, ~2 min left
+8500/8960 done, 25.2 min, ~1 min left
+8600/8960 done, 25.6 min, ~1 min left
+8700/8960 done, 26.0 min, ~1 min left
+8800/8960 done, 26.4 min, ~0 min left
+8900/8960 done, 26.7 min, ~0 min left
+8960/8960 done, 26.9 min, ~0 min left
+wrote 8960 rows to sweep_results/results.csv (431 CLI errors)
